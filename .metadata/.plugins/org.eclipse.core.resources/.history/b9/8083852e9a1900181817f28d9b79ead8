@@ -1,0 +1,10 @@
+
+public class Agenda {
+	public static void main(String[] args) {
+		System.out.println("Agenda de contatos");
+		Contato contato = new Contato();
+		contato.setNome("Fernando");
+		contato.setTelefone("12345678");
+		System.out.println(contato.getNome());
+	}
+}
