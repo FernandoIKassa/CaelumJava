@@ -10,10 +10,19 @@ public class Conta{
 
 	private int numero;
 	private String titular;
-	private double saldo;
+	protected double saldo;
 	private double limite;
+	private String agencia;
 	
 	
+	public String getAgencia() {
+		return agencia;
+	}
+
+	public void setAgencia(String agencia) {
+		this.agencia = agencia;
+	}
+
 	public int getNumero(){
 		return numero;
 	}
@@ -84,16 +93,29 @@ public class Conta{
 
 	}
 
-	public void transfere (Conta destino, double valor){
+	public void transfere (double valor, Conta conta){
 
-		if (saca(valor)){
-			destino.deposita(valor);
-		}
+		this.saca(valor);
+		conta.deposita(valor);
 	}
 
 	public double calculaRendimento (){
 
 		return saldo * 0.1;
 		
+	}
+
+	public void setSaldo(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setAgencia(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public String getTipo(){
+		return "Conta";
 	}
 }
