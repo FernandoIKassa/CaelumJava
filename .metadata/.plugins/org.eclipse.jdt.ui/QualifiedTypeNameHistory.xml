@@ -2,4 +2,11 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="Contato"/>
 <fullyQualifiedTypeName name="Agenda"/>
+<fullyQualifiedTypeName name="br.com.caelum.javafx.api.main.OlaMundo"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.Conta"/>
+<fullyQualifiedTypeName name="br.com.caelum.javafx.api.util.Evento"/>
+<fullyQualifiedTypeName name="br.com.caelum.javafx.api.main.TelaDeContas"/>
+<fullyQualifiedTypeName name="br.com.caelum.javafx.api.main.SistemaBancario"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.ContaPoupanca"/>
 </qualifiedTypeNameHistroy>

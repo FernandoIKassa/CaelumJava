@@ -8,6 +8,6 @@ public class Teste {
 	public static void main(String[] args) {
 		//OlaMundo.main(args);
 		//TelaDeContas.main(args);
-		SistemaBancario.mostraTela(false);
+		SistemaBancario.mostraTela(true);
 	}
 }

@@ -6,7 +6,7 @@ package br.com.caelum.contas.modelo;
  */
 
 
-public class Conta{
+public abstract class Conta{
 
 	private int numero;
 	private String titular;
@@ -66,18 +66,12 @@ public class Conta{
 	 * @return true se sacou
 	 */
 	public boolean saca(double valor){
-	
 		
-		if(valor > 0){
-			if (saldo + limite >= valor){
-
-				saldo -= valor;
-
-			} return true;
-
+		if (saldo + limite >= valor){
+			saldo -= valor;
+			return true;
 		}
 		return false;
-
 	}	
 
 	public String recuperaDadosParaImpressao(){
@@ -88,9 +82,12 @@ public class Conta{
 	}
 
 	public void deposita(double valor){
-
+		
+		if (valor < 0){
+			throw new IllegalArgumentException("Voce tentou depositar um valor negativo!");
+		}else{
 		saldo += valor;
-
+		}
 	}
 
 	public void transfere (double valor, Conta conta){
@@ -115,7 +112,5 @@ public class Conta{
 		
 	}
 	
-	public String getTipo(){
-		return "Conta";
-	}
+	public abstract String getTipo();
 }
