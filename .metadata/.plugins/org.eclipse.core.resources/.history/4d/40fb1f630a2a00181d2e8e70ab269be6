@@ -1,0 +1,10 @@
+package br.com.caelum.contas.arquivos;
+
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+public class LeArquivo {
+	public static void main(String[] args) {
+		InputStream is = new FileInputStream("arquivo.txt")
+	}
+}

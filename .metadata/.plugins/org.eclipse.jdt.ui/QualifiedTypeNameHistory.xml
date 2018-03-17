@@ -4,9 +4,23 @@
 <fullyQualifiedTypeName name="Agenda"/>
 <fullyQualifiedTypeName name="br.com.caelum.javafx.api.main.OlaMundo"/>
 <fullyQualifiedTypeName name="br.com.caelum.contas.modelo.Conta"/>
-<fullyQualifiedTypeName name="br.com.caelum.javafx.api.util.Evento"/>
 <fullyQualifiedTypeName name="br.com.caelum.javafx.api.main.TelaDeContas"/>
 <fullyQualifiedTypeName name="br.com.caelum.javafx.api.main.SistemaBancario"/>
-<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.ContaCorrente"/>
 <fullyQualifiedTypeName name="br.com.caelum.contas.modelo.ContaPoupanca"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.SeguroDeVida"/>
+<fullyQualifiedTypeName name="br.com.caelum.javafx.api.util.Evento"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="br.com.caelum.contas.modelo.Tributavel"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.PrinterState"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="br.com.caelum.chat.Cliente"/>
+<fullyQualifiedTypeName name="java.net.UnknownHostException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.net.Socket"/>
+<fullyQualifiedTypeName name="java.io.PrintStream"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
